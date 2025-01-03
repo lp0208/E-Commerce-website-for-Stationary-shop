@@ -1,0 +1,51 @@
+/* Custom Styles */
+
+/* Ensure the main content has some space at the top */
+main {
+    margin-top: 20px;
+}
+.art{
+width: 100%;
+
+}
+/* Modal Body Padding */
+.modal-body {
+    padding: 20px;
+}
+
+.modal-footer {
+    justify-content: space-between;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 50px;
+}
+
+/* Ensure products are aligned properly */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-body button {
+    width: 100%;
+    padding: 10px;
+}
+#searchBar {
+    width: 200px;
+    margin-right: 10px;
+    padding: 5px;
+}
+#searchForm {
+    max-width: 400px; /* Optional: Limit the width of the search form */
+    margin-left: auto; /* Optional: Align the search bar and button to the right */
+}
+
+#searchBar {
+    flex-grow: 1; /* Ensures the search bar takes up remaining space */
+}
