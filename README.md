@@ -30,7 +30,7 @@ Backend:
 
 None (This is a frontend-focused project. You can integrate it with a backend of your choice.)
 
-     Usage
+Usage
 
 1.Browse Products: Scroll through the product catalog to view available stationery items.
 
@@ -42,7 +42,7 @@ None (This is a frontend-focused project. You can integrate it with a backend of
 
 5.Checkout: Proceed to checkout to complete your purchase.
 
-     Folder Structure
+Folder Structure
 
 stationery-shop-ecommerce/
 ├── Stationary.html      # Main HTML file
@@ -53,7 +53,7 @@ stationery-shop-ecommerce/
 ├── images/              # Product images
 └── README.md            # Project documentation
 
-     Contact
+Contact
 
 For any inquiries or feedback, feel free to reach out:
 
