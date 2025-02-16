@@ -1,51 +1,100 @@
-/* Custom Styles */
-
-/* Ensure the main content has some space at the top */
-main {
-    margin-top: 20px;
-}
-.art{
-width: 100%;
-
-}
-/* Modal Body Padding */
-.modal-body {
-    padding: 20px;
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
-.modal-footer {
-    justify-content: space-between;
+h2 {
+    color: #333;
+    margin-bottom: 20px;
 }
 
-/* Footer Styles */
+/* Header Styles */
+header {
+    padding: 10px 0;
+    background: #343a40;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: white !important;
+    margin-right: 15px;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffdd57 !important;
+}
+
+/* Hero Section */
+#home {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+}
+
+#home img.art {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+/* Product Section */
+#products .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#products .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: #555;
+    font-size: 1rem;
+}
+
+.card-text::before {
+    content: '\20B9';
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Footer */
 footer {
-    margin-top: 50px;
+    background: #343a40;
+    color: white;
+    padding: 15px 0;
 }
 
-/* Ensure products are aligned properly */
-.card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+footer p {
+    margin: 0;
 }
 
-.card:hover {
-    transform: translateY(-10px);
+/* Cart Modal */
+#cartModal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.card-body button {
-    width: 100%;
-    padding: 10px;
-}
-#searchBar {
-    width: 200px;
-    margin-right: 10px;
-    padding: 5px;
-}
-#searchForm {
-    max-width: 400px; /* Optional: Limit the width of the search form */
-    margin-left: auto; /* Optional: Align the search bar and button to the right */
+#cartModal ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
 }
 
-#searchBar {
-    flex-grow: 1; /* Ensures the search bar takes up remaining space */
+#cartModal ul li:last-child {
+    border-bottom: none;
 }
